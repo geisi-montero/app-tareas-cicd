@@ -1,7 +1,7 @@
 {
   "name": "plantilla-devops-itla",
   "version": "1.0.0",
-  "description": "Plantilla base para la Práctica 3 y el Proyecto Final de Electiva 1: Introducción a DevOps (ITLA)",
+  "description": "Aplicación de lista de tareas con pipeline CI/CD para Electiva 1: Introducción a DevOps (ITLA)",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

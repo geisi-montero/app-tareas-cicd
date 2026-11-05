@@ -6,7 +6,6 @@
 **Repositorio:** https://github.com/Geisi-Montero/app-tareas-cicd
 **Página desplegada:** https://Geisi-Montero.github.io/app-tareas-cicd/
 
-> Rellena los campos `TU_...` y `[CAPTURA]` con tus datos y evidencias reales.
 
 ## 1. Resumen
 Se implementó un pipeline CI/CD en GitHub Actions para una aplicación Node.js/Express de lista de tareas. El pipeline ejecuta análisis estático, pruebas unitarias y de integración con umbral de cobertura, construye la imagen Docker y despliega el frontend a GitHub Pages solo si todo lo anterior pasa.
