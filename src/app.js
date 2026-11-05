@@ -56,7 +56,7 @@ function createApp() {
     const existe = tareas.some(t => t.id === id);
     if (!existe) return res.status(404).json({ error: 'Tarea no encontrada' });
     tareas = tareas.filter(t => t.id !== id);
-   res.status(200).end();
+   res.status(204).end();
   });
 
   return app;
